@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Video Translator</title>
+    <title style="font-size: 30px;">Video Translator</title>
+    <link rel="stylesheet" href="static\styles.css">
 </head>
-<body>
-    <h2>Translate a Video</h2>
+<body style="text-align:center">
+    <h2 style="font-size: 20px;">Translate a Video</h2>
     <form method="post" enctype="multipart/form-data">
-        <label>Select Input Type:</label><br>
+        <label style="font-weight: bold;">Select Input Type:</label><br>
         <input type="radio" name="input_type" value="youtube" checked> YouTube URL<br>
         <input type="radio" name="input_type" value="upload"> Upload File<br><br>
 
@@ -18,7 +19,7 @@
             <input type="file" name="video_file">
         </div>
 
-        <p>Select Target Languages:</p>
+        <p style="font-weight:bold; font-size: 20px;">Select Target Languages:</p>
         <label><input type="checkbox" name="languages" value="kn"> Kannada</label><br>
         <label><input type="checkbox" name="languages" value="hi"> Hindi</label><br>
         <label><input type="checkbox" name="languages" value="ta"> Tamil</label><br>
