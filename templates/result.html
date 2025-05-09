@@ -1,0 +1,15 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Translation Results</title>
+</head>
+<body>
+  <h1>Translated Video(s)</h1>
+  <ul>
+    {% for output in outputs %}
+      <li><a href="{{ url_for('download_file', filename=output.split('/')[-1]) }}">Download {{ output.split('/')[-1] }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
