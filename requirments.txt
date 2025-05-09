@@ -1,8 +1,0 @@
-Flask
-yt-dlp
-whisper
-gTTS
-pydub
-deep-translator
-torch
-ffmpeg-python
