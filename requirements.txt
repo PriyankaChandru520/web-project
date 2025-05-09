@@ -6,3 +6,4 @@ pydub
 deep-translator
 torch
 ffmpeg-python
+gunicorn
